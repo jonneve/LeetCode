@@ -4,6 +4,7 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
+        
         # place holder for i, j pointer (j - 1 for 0 based index) and a temp for answer which is max area
         ans = 0 
         i = 0

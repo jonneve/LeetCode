@@ -5,6 +5,7 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
+        
         # pointers for start/end of int list (j - 1 for 0 based index), ans as placeholder for instances where i + j = k
         i = 0
         j = len(nums) - 1
