@@ -8,19 +8,19 @@ var expect = function (val) {
     return {
         toBe: function (val2) {
             if (val2 === val) {
-                return true
+                return true;
             }
             else {
-                throw new Error("Not Equal")
+                throw new Error("Not Equal");
             }
         },
 
         notToBe: function (val2) {
             if (val2 !== val) {
-                return true
+                return true;
             }
             else {
-                throw new Error("Equal")
+                throw new Error("Equal");
             }
         }
     }

@@ -7,7 +7,7 @@ var createCounter = function (init) {
     // set counter initial value to init
     var counter = init;
 
-    // functions to increment, decrement and reset, where reset sets counter back to initial init value
+    // functions to increment, decrement using prefix increment and reset where reset sets counter back to initial init value
     function increment() {
         return ++counter;
     }

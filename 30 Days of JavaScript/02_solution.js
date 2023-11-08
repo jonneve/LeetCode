@@ -5,8 +5,8 @@
 var createCounter = function (n) {
 
     return function () {
-        // increment and set value of n by 1
-        return n++
+        // increment and set value of n by 1 using postfix increment
+        return n++;
     }
 };
 
